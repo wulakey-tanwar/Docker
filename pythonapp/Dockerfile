@@ -7,7 +7,7 @@ WORKDIR /app
 
 #copy
 
-COPY src/myapp.py /app.myapp.py
+COPY src/myapp.py /app/myapp.py
 #RUN
 
 CMD ["python","/app/myapp"]
